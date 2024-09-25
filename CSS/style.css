@@ -1,0 +1,131 @@
+*{
+    font-family: DM Sans;
+    box-sizing: border-box;
+}
+
+.bg{
+    background-color: #E9EDF2;
+}
+
+.basic h3{
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #2B3674;   
+    font-weight: 600;
+}  
+.up_img {
+    border: 1px dashed #B2BAD0;
+    border-radius: 10px;
+    padding: 10px;   
+    color:#FAFCFE;
+    
+}
+.up_img h6{
+font-size: 16px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: -0.02em;
+text-align: center;
+
+}
+.up_img i{
+    font-size: 24px;
+    font-weight: 900;
+}
+.up_img{
+font-size: 12px;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: -0.02em;
+text-align: center;
+}
+
+.form-label small{
+    display: flex;
+    gap: 3px;
+}
+.form-label::after{
+    content: "*";
+    color: #FF1818;
+}
+.form-label{
+font-size: 14px;
+font-weight: 500;
+line-height: 14px;
+letter-spacing: -0.02em;
+color: #2B3674;
+
+}
+.form-control::placeholder{
+  font-size: 14px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: -0.02em;
+color: #949DB9;
+}
+.form-control{
+    border-radius: 10px;
+    
+}
+.form-select{
+    
+    border-radius: 10px;
+     font-size: 14px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: -0.02em;
+    color: #949DB9;
+}
+.form-check-label{
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: -0.02em;
+color: #2B3674;
+}
+
+.form-check-input:checked{
+    background-color: #4318FF;
+  border-color:  #4318FF;
+ 
+}
+.form-control.a{
+    color: #949DB9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.warn_content {
+    color: #624E17;
+    background-color: #FDF4D1;
+    border: 1px solid #FBE7A5;
+}
+
+.head h3 {
+    font-size: 24px;
+    line-height: 32px;
+    color: #2B3674;
+   
+}
