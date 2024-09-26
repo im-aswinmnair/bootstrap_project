@@ -20,7 +20,7 @@
    <div class="container-fluid p-5">
       <div class="row gap-2 d-flex justify-content-center">
 
-         <div class=" basic col-5 p-3" style="background: #FFFFFF; border-radius: 20px;">
+         <div class=" form col-5 p-3" style="background: #FFFFFF; border-radius: 20px;">
             <h3>Basic Details</h3>
 
 
@@ -31,8 +31,8 @@
                <input type="file" id="upload" hidden>
             </label>
 
-            <div class="row">
-               <div class="col-3">
+            <div class="row d-flex justify-content-center align-items-center">
+               <div class="col-3 ">
                   <label for="details" class="form-label">Salutation</label>
                   <select class="form-select" id="details">
                      <option selected>select</option>
@@ -100,7 +100,7 @@
                <div class="col-6">
                   <label for="details" class="form-label">Country</label>
                   <select type="text" class="form-select" id="details">
-                     <option selected>select</option>
+                     <option selected>select country</option>
                      <option>India</option>
                   </select>
                </div>
@@ -108,7 +108,7 @@
                <div class="col-6">
                   <label for="details" class="form-label">State</label>
                   <select type="text" class="form-select" id="details">
-                     <option selected>select</option>
+                     <option selected>select state</option>
                      <option>Kerala</option>
                      <option>Chennai</option>
                      <option>Mumbai</option>
@@ -133,7 +133,7 @@
 
          <!--Advanced-->
 
-         <div class="col-5 p-3" style="background: #FFFFFF; border-radius: 20px;">
+         <div class=" form col-5 p-3" style="background: #FFFFFF; border-radius: 20px;">
             <h3>Advanced Details</h3>
             <div class="warn_content p-3">
                <h6>Sample warning messages - alert</h6>
@@ -141,9 +141,41 @@
                   volutpat. Donec faucibus mauris vel nibh sodales feugiat. Donec suscipit felis vitae orci porttitor
                   congue.</p>
             </div>
+
+            <div class="row ">
+
+               <div class="col-6">
+                  <label for="customRange2" class="form-label">Height</label>
+                  <div class=" col d-flex gap-2 align-items-center ">
+                     <input type="range" class="form-range" id="customRange2">
+                     <input type="text" class="range" value="160 cm">
+                  </div>
+               </div>
+
+               <div class="col-6">
+                  <label for="customRange2" class="form-label">Weight</label>
+                  <div class=" col d-flex gap-2 align-items-center ">
+                     <input type="range" class="form-range" id="customRange2">
+                     <input type="text" class="range" value="68 kg">
+                  </div>
+               </div>
+
+
+
+            </div>
+
+
+
+
+
+
          </div>
 
+
+
+
       </div>
+   </div>
 
 
 
