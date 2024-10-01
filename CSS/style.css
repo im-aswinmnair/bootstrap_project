@@ -146,12 +146,18 @@ body {
   line-height: 24px;
   letter-spacing: -0.02em;
 }
-input [type=range]{
+
+input[type=range] {
   -webkit-appearance: none;
 }
-input[type=range]::-webkit-slider-thumb{
+
+input[type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
   height: 15px;
   width: 15px;
-  background-color:#caba27;
+  background: #4318FF;
+}
+
+.form-label.quali::after{
+  content: " ";
 }

@@ -17,7 +17,7 @@
 </head>
 
 <body>
-   <div class="container p-5 d-flex  flex-column  gap-3">
+   <div class="container-fluid p-5 d-flex  flex-column  gap-3">
       <div class="row gap-3 d-flex justify-content-center">
          <div class="form col p-3" style="background: #ffffff; border-radius: 20px">
             <h3>Basic Details</h3>
@@ -30,7 +30,7 @@
             </label>
 
             <div class="row mt-4">
-               <div class="col-3">
+               <div class="col-md">
                   <label for="salut" class="form-label">Salutation</label>
                   <select class="form-select" id="salut" style="padding: 10px;">
                      <option selected>select</option>
@@ -40,31 +40,31 @@
                   </select>
                </div>
 
-               <div class="col-4">
+               <div class="col-md">
                   <label for="first_name" class="form-label">First Name</label>
                   <input type="text" class="form-control" id="first_name" placeholder="john" />
                </div>
 
-               <div class="col-4">
+               <div class="col-md">
                   <label for="last_name" class="form-label">Last Name</label>
                   <input type="text" class="form-control" id="last_name" placeholder="doe" />
                </div>
             </div>
 
             <div class="row mt-4">
-               <div class="col-6">
+               <div class="col-md">
                   <label for="email" class="form-label">Email Address</label>
                   <input type="text" class="form-control" id="email" placeholder="mail@simmmple.com" />
                </div>
 
-               <div class="col-6">
+               <div class="col-md">
                   <label for="m_number" class="form-label">Mobile Number</label>
                   <input type="tel" class="form-control" id="m_number" placeholder="+91" />
                </div>
             </div>
 
             <div class="row mt-4">
-               <div class="col-6 ">
+               <div class="col-md ">
                   <label for="dob" class="form-label">Date Of Birth</label>
                   <input type="date" class="form-control a" id="dob" />
                </div>
@@ -89,12 +89,12 @@
             <div class="row mt-4">
                <div class="col-12">
                   <label for="address" class="form-label">Address</label>
-                  <input type="text" class="form-control" id="address" placeholder="enter address" />
+                  <input type="text" class="form-control" id="address" placeholder="enter address">
                </div>
             </div>
 
             <div class="row mt-4">
-               <div class="col-6">
+               <div class="col-md">
                   <label for="country" class="form-label">Country</label>
                   <select type="text" class="form-select" id="country">
                      <option selected>select country</option>
@@ -102,7 +102,7 @@
                   </select>
                </div>
 
-               <div class="col-6">
+               <div class="col-md">
                   <label for="state" class="form-label">State</label>
                   <select type="text" class="form-select" id="state">
                      <option selected>select state</option>
@@ -114,12 +114,12 @@
             </div>
 
             <div class="row mt-4 " style="margin-bottom: 20px;">
-               <div class="col-6">
+               <div class="col-md">
                   <label for="city" class="form-label">City</label>
                   <input type="text" class="form-control" id="city" placeholder="enter city" />
                </div>
 
-               <div class="col-6">
+               <div class="col-md">
                   <label for="pincode" class="form-label">Pin/Zip</label>
                   <input type="text" class="form-control" id="pincode" placeholder="enter zip/pin" />
                </div>
@@ -128,7 +128,7 @@
 
          <!--Advanced-->
 
-         <div class="form col p-3" style="background: #ffffff; border-radius: 20px">
+         <div class="form col-lg p-3" style="background: #ffffff; border-radius: 20px">
             <h3>Advanced Details</h3>
             <div class="warn_content p-2 d-flex flex-column gap-1">
                <h6>Sample warning messages - alert</h6>
@@ -140,57 +140,61 @@
                </p>
             </div>
 
+
+
             <div class="row mt-4">
-               <div class="col-6">
-                  <label for="customRange2" class="form-label">Height</label>
+               <div class="col-sm">
+                  <label for="customRange1" class="form-label">Height</label>
                   <div class="col d-flex gap-2 align-items-center">
-                     <input type="range" class="form-range" id="customRange2" />
-                     <input type="text" class="range" value="160 cm" />
+                     <input type="range" class="form-range" id="customRange1">
+                     <input type="text" class="range" id="exampleheight" value="160 cm">
                   </div>
                </div>
 
-               <div class="col-6">
+               <div class="col-sm">
                   <label for="customRange2" class="form-label">Weight</label>
                   <div class="col d-flex gap-2 align-items-center">
-                     <input type="range" class="form-range" id="customRange2" />
-                     <input type="text" class="range" value="68 kg" />
+                     <input type="range" class="form-range" id="customRange2">
+                     <input type="text" class="range" id="exampleweight" value="68 kg">
                   </div>
                </div>
             </div>
 
+
+
             <div class="row  mt-4 ">
-               <div class="col-6">
+               <div class="col-lg">
                   <label for="exampleColorInput" class="form-label">Choose Color</label>
                   <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#CB5D9F"
                      style="max-width: 100%" title="Choose your color" />
                </div>
 
-               <div class="col-6">
-                  <label for="template" class="form-label" style="margin-bottom: 15px;">Choose Templates</label>
+               <div class="col">
+                  <legend class="form-label" style="margin-bottom: 15px;">Choose Templates</legend>
 
                   <div class="d-flex align-items-center gap-2 ">
 
-                     <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2"
-                        style="border-radius: 0%; font-size: 14px;" />
-                     <label class="form-check-label" for="inlineCheckbox2"
-                        style="font-size: 13px;white-space: nowrap;">Template 2</label>
+                     <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option2"
+                        style="border-radius: 0%; font-size: 12px;" />
+                     <label class="form-check-label" for="inlineCheckbox1"
+                        style="font-size: 10px;white-space: nowrap;">Template 1</label>
 
                      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2"
-                        style="border-radius: 0%; font-size: 14px;" />
+                        style="border-radius: 0%; font-size: 12px;" />
                      <label class="form-check-label" for="inlineCheckbox2"
-                        style="font-size: 13px;white-space: nowrap;">Template 2</label>
+                        style="font-size: 10px;white-space: nowrap;">Template 2</label>
 
-                     <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2"
-                        style="border-radius: 0%; font-size: 14px;" />
-                     <label class="form-check-label" for="inlineCheckbox2"
-                        style="font-size: 13px;white-space: nowrap;">Template 3</label>
+                     <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option2"
+                        style="border-radius: 0%; font-size: 12px;" />
+                     <label class="form-check-label" for="inlineCheckbox3"
+                        style="font-size: 10px;white-space: nowrap;">Template 3</label>
                   </div>
                </div>
             </div>
 
             <div class="row mt-4">
                <div class="col-12">
-                  <label for="qualific" class="form-label">Qualifications</label>
+                  <label for="qualific" class="form-label quali">Qualifications</label>
                   <input type="text" class="form-control" id="qualific" placeholder="enter qualifications" />
                </div>
             </div>
@@ -198,12 +202,12 @@
             <div class="row mt-4">
                <div class="col-12">
                   <label for="about" class="form-label">About Your Self</label>
-                  <textarea class="form-control" placeholder="enter here..." id="floatingTextarea2 "
-                     style="height: 130px"></textarea>
+                  <textarea class="form-control" placeholder="enter here..." id="about"
+                     style="height: 150px"></textarea>
                </div>
             </div>
 
-            <div class="row mt-4">
+            <div class="row mt-3">
                <div class="col-12 form-check" style="margin-top: 10px; margin-left: 15px">
                   <input class="form-check-input" type="checkbox" id="defaultCheck1" style="border-radius: 0px" />
                   <label class="form-check-label" for="defaultCheck1">
@@ -218,7 +222,8 @@
          <div class="col-12  d-flex justify-content-end"
             style="background-color: #ffffff; border-radius: 20px; padding:20px">
             <div>
-               <button type="button" class="btn btn-light p-2" style="color: #2b3674; border-radius: 10px;">Cancel</button>
+               <button type="button" class="btn btn-light p-2"
+                  style="color: #2b3674; border-radius: 10px;">Cancel</button>
                <button type="button" class="btn p-2 "
                   style="background-color: #4318ff; color: #ffffff; border-radius: 10px;">Save Changes</button>
             </div>
