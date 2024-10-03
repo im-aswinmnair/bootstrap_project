@@ -104,28 +104,14 @@ body {
 
 /*Advanced*/
 
-.warn_content {
-  color: #624e17;
-  background-color: #fdf4d1;
-  border: 1px solid #fbe7a5;
-  max-width: 730px;
-  border-radius: 10px;
-  padding: 0px;
-}
 
-.warn_content h6 {
-  margin: 0;
-  font-size: 14px;
-  line-height: 25px;
-}
-
-.warn_content p {
-  margin: 0;
+.alert.alert-warning p {
+  
   font-size: 10px;
   font-weight: 400;
   line-height: 14px;
   letter-spacing: -0.02em;
-}
+} 
 
 .range {
   border-radius: 10px;
